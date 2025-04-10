@@ -106,4 +106,4 @@ Due to limited computational resources, the current model is constrained in sequ
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/Vimal9900/Satellite-Imagery-Based-Cloud-Detection-and-Movement-Prediction.git
-   cd cloud-movement-prediction
+   cd Satellite-Imagery-Based-Cloud-Detection-and-Movement-Prediction
