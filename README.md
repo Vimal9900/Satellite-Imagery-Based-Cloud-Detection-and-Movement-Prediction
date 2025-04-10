@@ -95,8 +95,8 @@ Training is carried out on high-performance GPUs (e.g., NVIDIA Tesla V100) with 
 
 ### 📹 Ground Truth vs Predicted Cloud Movement
 
-- **👉 [Ground Truth (15 Frames)](./Results/15_Frame_Ground%20truth.mp4)**
-- **👉 [Prediction (15 Frames)](./Results/15_Frame_prediction.mp4)**
+- **👉 [Ground Truth (15 Frames)](./Results/15_Frame_Ground%20truth.gif)**
+- **👉 [Prediction (15 Frames)](./Results/15_Frame_prediction.gif)**
 
 
 ### Qualitative Analysis
