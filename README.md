@@ -102,6 +102,5 @@ Due to limited computational resources, the current model is constrained in sequ
 ### Running the Training Pipeline
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/yourusername/cloud-movement-prediction](https://github.com/Vimal9900/Satellite-Imagery-Based-Cloud-Detection-and-Movement-Prediction).git
    git clone https://github.com/Vimal9900/Satellite-Imagery-Based-Cloud-Detection-and-Movement-Prediction.git
    cd cloud-movement-prediction
