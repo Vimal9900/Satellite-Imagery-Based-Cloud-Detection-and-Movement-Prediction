@@ -88,7 +88,6 @@ Training is carried out on high-performance GPUs (e.g., NVIDIA Tesla V100) with 
 | Horn-Schunck     | 0.112                       | 88.7         |
 | Farneback        | 0.087                       | 93.1         |
 | DIS Optical Flow | 0.075                       | 95.6         |
-                   |
 
 ### Qualitative Analysis
 Predictions demonstrate:
