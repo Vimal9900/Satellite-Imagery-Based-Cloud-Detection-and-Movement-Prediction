@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Satellite Imagery-Based Cloud Movement Prediction(SICMP)
+Satellite Imagery-Based Cloud Movement Prediction(SICMP) 
 ========================================
 This script implements a Stacked ConvLSTM model for predicting future frames of cloud images.
 The model is trained on a dataset of cloud images, where each image is represented as a sequence of frames.
