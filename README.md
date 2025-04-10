@@ -79,12 +79,16 @@ Training is carried out on high-performance GPUs (e.g., NVIDIA Tesla V100) with 
 
 ## Results
 ### Quantitative Metrics
-| Algorithm       | MSE ↓   | SSIM ↑ | Inference Time (ms/frame) |
-|-----------------|---------|--------|---------------------------|
-| Lucas-Kanade    | 0.0125  | 0.75   | 120                       |
-| Horn-Schunck    | 0.0118  | 0.77   | 2500                      |
-| Farneback       | 0.0112  | 0.78   | 300                       |
-| **DIS (final)** | **0.0105**  | **0.80**   | **80**                        |
+
+**Table 1: Performance Comparison of Optical Flow Algorithms**
+
+| Algorithm        | Combined Loss (MSE + SSIM) | Accuracy (%) |
+|------------------|-----------------------------|--------------|
+| Lucas-Kanade     | 0.098                       | 92.4         |
+| Horn-Schunck     | 0.112                       | 88.7         |
+| Farneback        | 0.087                       | 93.1         |
+| DIS Optical Flow | 0.075                       | 95.6         |
+                   |
 
 ### Qualitative Analysis
 Predictions demonstrate:
