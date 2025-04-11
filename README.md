@@ -1,4 +1,4 @@
-# Cloud Movement Prediction with Stacked ConvLSTM
+# Cloud Movement Prediction with Stacked ConvLSTM(SICMP)
 
 This repository contains a detailed end-to-end pipeline for predicting short-term cloud movement using satellite imagery. Our approach seamlessly integrates classical optical flow algorithms with deep learning techniques by incorporating optical flow features into a Stacked ConvLSTM network. The system is designed for robust nowcasting applications in meteorology, renewable energy forecasting, and aviation safety.
 ![Cloud prediction](./Results/Prediction.jpg)
