@@ -1,0 +1,63 @@
+🔧 Activating conda environment...
+📦 Verifying Python dependencies...
+📥 Installing Pillow...
+Requirement already satisfied: Pillow in /csehome/m24mac015/miniconda3/envs/Vimal9900/lib/python3.10/site-packages (11.0.0)
+🐍 Python binary: /csehome/m24mac015/miniconda3/envs/Vimal9900/bin/python
+Python 3.10.16
+✅ PyTorch: 2.5.1+cu121 | CUDA Available: True
+🚀 Running SICMP.py...
+/csehome/m24mac015/miniconda3/envs/Vimal9900/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: m24mac015 (m24mac015-prom-iit-rajasthan) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.9
+wandb: Run data is saved locally in /csehome/m24mac015/CV_project/wandb/run-20250410_234708-cm0oajj8
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run misty-cloud-4
+wandb: ⭐️ View project at https://wandb.ai/m24mac015-prom-iit-rajasthan/CV_Project
+wandb: 🚀 View run at https://wandb.ai/m24mac015-prom-iit-rajasthan/CV_Project/runs/cm0oajj8
+2025-04-11 00:13:54,224 [INFO] Epoch 1/20 | Train Loss: 0.095167, Train Acc: 0.6776 | Val Loss: 0.072640, Val Acc: 0.7087
+2025-04-11 00:40:46,463 [INFO] Epoch 2/20 | Train Loss: 0.057531, Train Acc: 0.8536 | Val Loss: 0.048013, Val Acc: 0.9042
+2025-04-11 01:07:45,228 [INFO] Epoch 3/20 | Train Loss: 0.045907, Train Acc: 0.9223 | Val Loss: 0.044072, Val Acc: 0.9224
+2025-04-11 01:34:47,117 [INFO] Epoch 4/20 | Train Loss: 0.043607, Train Acc: 0.9307 | Val Loss: 0.042510, Val Acc: 0.9250
+2025-04-11 02:01:27,440 [INFO] Epoch 5/20 | Train Loss: 0.042182, Train Acc: 0.9336 | Val Loss: 0.041183, Val Acc: 0.9276
+2025-04-11 02:28:09,584 [INFO] Epoch 6/20 | Train Loss: 0.040827, Train Acc: 0.9362 | Val Loss: 0.040063, Val Acc: 0.9272
+2025-04-11 02:54:50,779 [INFO] Epoch 7/20 | Train Loss: 0.039780, Train Acc: 0.9394 | Val Loss: 0.039370, Val Acc: 0.9289
+2025-04-11 03:21:32,880 [INFO] Epoch 8/20 | Train Loss: 0.039155, Train Acc: 0.9417 | Val Loss: 0.038930, Val Acc: 0.9290
+2025-04-11 03:48:14,010 [INFO] Epoch 9/20 | Train Loss: 0.038728, Train Acc: 0.9441 | Val Loss: 0.038609, Val Acc: 0.9324
+2025-04-11 04:14:54,452 [INFO] Epoch 10/20 | Train Loss: 0.038428, Train Acc: 0.9450 | Val Loss: 0.038339, Val Acc: 0.9319
+2025-04-11 04:41:31,291 [INFO] Epoch 11/20 | Train Loss: 0.038167, Train Acc: 0.9466 | Val Loss: 0.038139, Val Acc: 0.9338
+2025-04-11 05:08:10,272 [INFO] Epoch 12/20 | Train Loss: 0.037960, Train Acc: 0.9471 | Val Loss: 0.037965, Val Acc: 0.9328
+2025-04-11 05:34:54,261 [INFO] Epoch 13/20 | Train Loss: 0.037765, Train Acc: 0.9482 | Val Loss: 0.037797, Val Acc: 0.9345
+2025-04-11 06:01:43,005 [INFO] Epoch 14/20 | Train Loss: 0.037603, Train Acc: 0.9485 | Val Loss: 0.037605, Val Acc: 0.9352
+2025-04-11 06:28:23,576 [INFO] Epoch 15/20 | Train Loss: 0.037435, Train Acc: 0.9498 | Val Loss: 0.037478, Val Acc: 0.9361
+2025-04-11 06:55:01,190 [INFO] Epoch 16/20 | Train Loss: 0.037298, Train Acc: 0.9500 | Val Loss: 0.037290, Val Acc: 0.9366
+2025-04-11 07:21:38,488 [INFO] Epoch 17/20 | Train Loss: 0.037158, Train Acc: 0.9509 | Val Loss: 0.037189, Val Acc: 0.9373
+2025-04-11 07:48:26,090 [INFO] Epoch 18/20 | Train Loss: 0.037043, Train Acc: 0.9511 | Val Loss: 0.036987, Val Acc: 0.9383
+2025-04-11 08:15:15,520 [INFO] Epoch 19/20 | Train Loss: 0.036926, Train Acc: 0.9519 | Val Loss: 0.036968, Val Acc: 0.9377
+2025-04-11 08:42:05,522 [INFO] Epoch 20/20 | Train Loss: 0.036830, Train Acc: 0.9520 | Val Loss: 0.036751, Val Acc: 0.9397
+wandb: uploading media/images/loss_plot_20_9ddba2c48c808deed60e.png; uploading media/images/accuracy_plot_20_ebcc4320786fc41b7145.png; uploading wandb-summary.json; uploading output.log
+wandb: uploading history steps 19-20, summary, console lines 19-19
+wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:      epoch ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▇▇▇██
+wandb:         lr ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:  train_acc ▁▅▇▇████████████████
+wandb: train_loss █▃▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    val_acc ▁▇▇█████████████████
+wandb:   val_loss █▃▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:      epoch 20
+wandb:         lr 5e-05
+wandb:  train_acc 0.95199
+wandb: train_loss 0.03683
+wandb:    val_acc 0.93971
+wandb:   val_loss 0.03675
+wandb: 
+wandb: 🚀 View run misty-cloud-4 at: https://wandb.ai/m24mac015-prom-iit-rajasthan/CV_Project/runs/cm0oajj8
+wandb: ⭐️ View project at: https://wandb.ai/m24mac015-prom-iit-rajasthan/CV_Project
+wandb: Synced 5 W&B file(s), 2 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250410_234708-cm0oajj8/logs
+2025-04-11 08:42:10,117 [INFO] Training complete. Model saved at /csehome/m24mac015/CV_project/Model/cloud_predictor.pth
