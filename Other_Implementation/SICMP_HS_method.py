@@ -19,6 +19,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader, Subset
+from skimage.registration import optical_flow_horn_schunck
 import logging
 import wandb
 
@@ -47,7 +48,7 @@ def compute_Horn_Schunck_flow(images, alpha=15, num_iter=100):
     flows = []
     for i in range(len(images) - 1):
         # Compute Horn-Schunck optical flow between images[i] and images[i+1]
-        u, v = compute_Horn_Schunck_flow(images[i], images[i+1], alpha=alpha, max_iter=num_iter)
+        u, v = optical_flow_horn_schunck(images[i], images[i+1], alpha=alpha, max_iter=num_iter)
         flows.append((u, v))
     return flows
 
